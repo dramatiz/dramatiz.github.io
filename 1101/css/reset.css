@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Microsoft Jhenghei";
+ }
+ html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,div {
+     margin: 0;
+     padding: 0;
+     border-block-end: 0;
+ }
+ .clearfix::after {
+     content: "";
+     display: block;
+     clear: both;
+ }
+ img {
+     width: 100%;
+     vertical-align: middle;
+ }
+ ul,ol,li {
+     list-style: none;
+ }
+ .btn {
+     display: inline-block;
+     border: 0;
+     text-decoration: none;
+     background-color: rgb(19, 76, 94);
+     color: rgb(255, 255, 255);
+     padding: 10px 30px;
+
+     transition: all .3s;
+ }
+ .btn-light {
+    background-color: rgb(148, 230, 255); 
+    color: black;
+ }
+ .btn:hover {
+     /* background-color: var; */
+     background-color: rgb(32, 114, 139);
+     color: aliceblue;
+ }
